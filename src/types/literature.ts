@@ -4,9 +4,12 @@ export type Genre =
   | 'Truyện ngắn'
   | 'Thơ'
   | 'Tùy bút / Ký'
+  | 'Tùy bút'
   | 'Kịch'
   | 'Văn chính luận'
-  | 'Truyện thơ Nôm';
+  | 'Truyện thơ Nôm'
+  | 'Sử thi'
+  | 'Thần thoại';
 
 export type AnalysisLevel = 'basic' | 'detailed' | 'advanced';
 

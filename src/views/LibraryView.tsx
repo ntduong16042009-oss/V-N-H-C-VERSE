@@ -42,10 +42,11 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
     'all',
     'Truyện ngắn',
     'Thơ',
-    'Tùy bút / Ký',
+    'Tùy bút',
     'Kịch',
     'Văn chính luận',
-    'Truyện thơ Nôm',
+    'Sử thi',
+    'Thần thoại',
   ];
 
   const allWorks = useMemo(() => Object.values(WORKS), []);
@@ -57,7 +58,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
       } else if (selectedGrade !== 'all' && work.grade.toString() !== selectedGrade) {
         return false;
       }
-      if (selectedGenre !== 'all' && work.genre !== selectedGenre) {
+      if (selectedGenre !== 'all' && !work.genre.includes(selectedGenre)) {
         return false;
       }
       if (selectedAuthor !== 'all' && work.authorId !== selectedAuthor) {
@@ -298,6 +299,11 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
                     <p className="text-xs text-[#b5a4d9] line-clamp-3 leading-relaxed">
                       {work.hookIntro}
                     </p>
+                    <div className="pt-1">
+                      <span className="inline-block px-2.5 py-0.5 rounded-md bg-purple-500/15 border border-purple-400/25 text-[10px] font-medium text-[#e2d6ff] line-clamp-1">
+                        {work.textbook}
+                      </span>
+                    </div>
                   </div>
 
                   <div className="pt-4 border-t border-white/10 flex items-center justify-between gap-2">

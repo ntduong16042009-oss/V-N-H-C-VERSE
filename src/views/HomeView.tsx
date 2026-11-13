@@ -127,7 +127,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
       title: 'Chào mừng đến với VĂN HỌCVERSE',
       content:
         'VĂN HỌCVERSE là vũ trụ văn học số kết hợp giữa vẻ đẹp nghệ thuật cổ điển và công nghệ tương lai. Tại đây, mỗi trang sách mở ra một thế giới sống động, nơi bạn không chỉ đọc mà còn cảm nhận, tương tác và đối thoại cùng những kiệt tác văn chương.',
-      highlight: '11+ Kiệt tác phân tích chuyên sâu · 12 Đại thi hào & Tác gia · 4 Thế giới văn chương',
+      highlight: `${allWorks.length} Kiệt tác phân tích chuyên sâu · ${Object.keys(AUTHORS).length} Đại thi hào & Tác gia · 4 Thế giới văn chương`,
       actionLabel: 'Khám phá Kho Tác phẩm',
       actionView: 'library',
     },
@@ -587,7 +587,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
             onClick={() => onNavigate('authors')}
             className="text-xs sm:text-sm font-medium text-[#f5d076] hover:underline flex items-center gap-1.5"
           >
-            <span>Xem toàn bộ 12 Tác gia</span>
+            <span>Xem toàn bộ {Object.keys(AUTHORS).length} Tác gia</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>

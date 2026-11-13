@@ -277,4 +277,451 @@ export const AUTHORS: Record<string, Author> = {
       'Một trong những gương mặt trụ cột xuất sắc nhất của phong trào Thơ mới, tạo nên giọng điệu "sầu vạn cổ" bi tráng và triết học sâu xa.',
     quote: 'Sóng gợn tràng giang buồn điệp điệp / Con thuyền xuôi mái nước song song / Thuyền về nước lại, sầu trăm ngả / Củi một cành khô lạc mấy dòng.',
   },
+
+  'xuan-dieu': {
+    id: 'xuan-dieu',
+    name: 'Xuân Diệu',
+    slug: 'xuan-dieu',
+    birthDeath: '1916 – 1985',
+    era: 'Phong trào Thơ Mới & Văn học Hiện đại Việt Nam',
+    birthplace: 'Gò Bồi, Tuy Phước, Bình Định (quê cha ở Can Lộc, Hà Tĩnh)',
+    portraitUrl: '',
+    literaryStyle:
+      'Nhà thơ "mới nhất trong các nhà Thơ Mới". Hồn thơ nồng nàn, sôi nổi, đắm say sự sống trần thế; lấy con người giữa tuổi trẻ và tình yêu làm chuẩn mực cho mọi vẻ đẹp của vũ trụ; ngôn ngữ giàu nhạc điệu, cảm giác tinh vi (tương giao các giác quan).',
+    aestheticView:
+      'Sống là phải sống mãnh liệt, tận hiến từng giây phút trước sự trôi chảy tàn nhẫn của thời gian tuyến tính. Thiên đường không ở cõi hư vô mà nằm ngay trên mặt đất đầy ánh sáng và hương sắc.',
+    careerMilestones: [
+      'Xuất bản tập "Thơ thơ" (1938) và "Gửi hương cho gió" (1945) làm rạng rỡ thi đàn Thơ Mới.',
+      'Viện sĩ Thông tấn Viện Hàn lâm Nghệ thuật Cộng hòa Dân chủ Đức (1983).',
+      'Được truy tặng Giải thưởng Hồ Chí Minh về Văn học Nghệ thuật đợt I (1996).',
+    ],
+    majorWorks: ['Thơ thơ (1938)', 'Gửi hương cho gió (1945)', 'Phấn thông vàng (1939)', 'Riêng chung (1960)', 'Vội vàng', 'Đây mùa thu tới'],
+    contributions:
+      'Được mệnh danh là "Ông hoàng thơ tình" Việt Nam, người đem đến cho thơ ca dân tộc một mỹ học hiện đại, trẻ trung và nhân văn.',
+    quote: 'Ta muốn ôm / Cả sự sống mới bắt đầu mơn mởn / Ta muốn riết mây đưa và gió lượn / Ta muốn say cánh bướm với tình yêu.',
+  },
+
+  'thach-lam': {
+    id: 'thach-lam',
+    name: 'Thạch Lam',
+    slug: 'thach-lam',
+    birthDeath: '1910 – 1942',
+    era: 'Văn xuôi lãng mạn – hiện thực trữ tình (1930 – 1945)',
+    birthplace: 'Hà Nội (quê gốc Cẩm Giàng, Hải Dương – phố huyện Cẩm Giàng)',
+    portraitUrl: '',
+    literaryStyle:
+      'Truyện ngắn không có cốt truyện kịch tính mà như một bài thơ trữ tình đượm buồn. Ngòi bút tinh tế đi sâu vào những rung động vi tế nhất của tâm hồn và vẻ đẹp bình dị nơi phố huyện nghèo.',
+    aestheticView:
+      'Văn chương không phải là cách đem đến cho người đọc sự thoát ly hay sự quên, trái lại văn chương là một thứ khí giới thanh cao và đắc lực để vừa tố cáo và thay đổi một cái thế giới giả dối và tàn ác, vừa làm cho lòng người được thêm trong sạch và phong phú hơn.',
+    careerMilestones: [
+      'Thành viên trụ cột của nhóm Tự Lực Văn Đoàn, biên tập báo Phong Hóa, Ngày Nay.',
+      'Để lại những tập truyện ngắn và tùy bút kinh điển dù qua đời ở tuổi 32.',
+    ],
+    majorWorks: ['Gió đầu mùa (1937)', 'Nắng trong vườn (1938)', 'Sợi tóc (1942)', 'Hà Nội băm sáu phố phường (1943)', 'Hai đứa trẻ'],
+    contributions:
+      'Người khai mở dòng truyện ngắn trữ tình tâm lý độc đáo trong văn xuôi hiện đại Việt Nam.',
+    quote: 'Chừng ấy người trong bóng tối mong đợi một cái gì tươi sáng cho sự sống nghèo khổ hằng ngày của họ.',
+  },
+
+  'hoang-phu-ngoc-tuong': {
+    id: 'hoang-phu-ngoc-tuong',
+    name: 'Hoàng Phủ Ngọc Tường',
+    slug: 'hoang-phu-ngoc-tuong',
+    birthDeath: '1937 – 2023',
+    era: 'Văn học kháng chiến chống Mỹ & Đổi mới',
+    birthplace: 'Thành phố Huế (quê gốc Triệu Phong, Quảng Trị)',
+    portraitUrl: '',
+    literaryStyle:
+      'Sự kết hợp nhuần nhuyễn giữa chất trí tuệ uyên bác và tính trữ tình đằm thắm, giữa nghị luận sắc bén và suy tư đa chiều. Ngôn từ phong phú, sang trọng, giàu hình ảnh và nhịp điệu thơ.',
+    aestheticView:
+      'Thiên nhiên và dòng sông quê hương không phải là vật vô tri mà là một bản thể văn hóa, lịch sử và thi ca sống động mang tâm hồn con người.',
+    careerMilestones: [
+      'Tốt nghiệp Đại học Sư phạm Sài Gòn và Đại học Văn khoa Huế, tham gia kháng chiến từ năm 1966.',
+      'Tổng biên tập tạp chí Cửa Việt, Chủ tịch Hội Văn học Nghệ thuật Bình Trị Thiên.',
+      'Được trao Giải thưởng Nhà nước về Văn học Nghệ thuật năm 2007.',
+    ],
+    majorWorks: [
+      'Ngôi sao trên đỉnh Phu Văn Lâu (1971)',
+      'Rất nhiều ánh lửa (1979)',
+      'Ai đã đặt tên cho dòng sông? (1981)',
+      'Hoa trái quanh tôi (1995)',
+    ],
+    contributions:
+      'Một trong những nhà văn viết bút ký xuất sắc nhất văn học Việt Nam hiện đại, người tạc bức tượng đài bất hủ về dòng sông Hương xứ Huế.',
+    quote: 'Trong cái bản chất dịu dàng của nó, sông Hương đã sống một nửa cuộc đời như một cô gái Di-gan phóng khoáng và man dại.',
+  },
+
+  'nguyen-khoa-diem': {
+    id: 'nguyen-khoa-diem',
+    name: 'Nguyễn Khoa Điềm',
+    slug: 'nguyen-khoa-diem',
+    birthDeath: '1943 – nay',
+    era: 'Thơ ca kháng chiến chống Mỹ & Đổi mới',
+    birthplace: 'Thôn Ưu Điềm, Phong Hòa, Phong Điền, Thừa Thiên Huế',
+    portraitUrl: '',
+    literaryStyle:
+      'Giàu chất suy tư, cảm xúc dồn nén, thể hiện tâm tư của người trí thức trẻ tham gia cuộc chiến đấu của dân tộc; kết hợp hài hòa giữa chính luận và trữ tình cùng chất liệu văn hóa dân gian.',
+    aestheticView:
+      'Đất Nước không phải là khái niệm trừu tượng xa xôi mà kết tinh trong cuộc sống bình dị, trong ca dao thần thoại và trong máu xương của Nhân dân.',
+    careerMilestones: [
+      'Tham gia phong trào học sinh, sinh viên yêu nước tại Huế và hoạt động ở chiến khu Trị – Thiên.',
+      'Từng giữ chức Bộ trưởng Bộ Văn hóa – Thông tin, Tổng Thư ký Hội Nhà văn Việt Nam.',
+      'Được trao Giải thưởng Nhà nước về Văn học Nghệ thuật năm 2000.',
+    ],
+    majorWorks: ['Đất ngoại ô (1972)', 'Mặt đường khát vọng (1974)', 'Ngôi nhà có ngọn lửa ấm (1986)', 'Cõi lặng (2007)'],
+    contributions:
+      'Gương mặt tiêu biểu của thế hệ nhà thơ trẻ thời chống Mỹ, làm mới tư duy thơ về đề tài Tổ quốc qua tư tưởng "Đất Nước của Nhân dân".',
+    quote: 'Em ơi em Đất Nước là máu xương của mình / Phải biết gắn bó và san sẻ / Phải biết hóa thân cho dáng hình xứ sở / Làm nên Đất Nước muôn đời...',
+  },
+
+  'to-hoai': {
+    id: 'to-hoai',
+    name: 'Tô Hoài',
+    slug: 'to-hoai',
+    birthDeath: '1920 – 2014',
+    era: 'Văn học hiện đại Việt Nam (Trước và sau Cách mạng tháng Tám)',
+    birthplace: 'Làng Nghĩa Đô, phủ Hoài Đức (nay thuộc Cầu Giấy, Hà Nội)',
+    portraitUrl: '',
+    literaryStyle:
+      'Vốn sống phong phú, năng lực quan sát tinh tường về phong tục tập quán vùng miền; lối trần thuật hóm hỉnh, sinh động; từ vựng giàu có, đậm tính khẩu ngữ tự nhiên.',
+    aestheticView:
+      'Mỗi trang viết phải thấm đẫm hơi thở thực tế đời sống và tình cảm gắn bó sâu nặng với đất và người, đặc biệt là đồng bào miền núi Tây Bắc.',
+    careerMilestones: [
+      'Nổi tiếng từ năm 21 tuổi với kiệt tác thiếu nhi "Dế Mèn phiêu lưu ký" (1941).',
+      'Cùng bộ đội vào giải phóng Tây Bắc năm 1952, sáng tác tập "Truyện Tây Bắc".',
+      'Được trao Giải thưởng Hồ Chí Minh về Văn học Nghệ thuật đợt I (1996).',
+    ],
+    majorWorks: ['Dế Mèn phiêu lưu ký (1941)', 'O chuột (1942)', 'Truyện Tây Bắc (1953)', 'Miền Tây (1967)', 'Cát bụi chân ai (1992)'],
+    contributions:
+      'Cây đại thụ của nền văn xuôi Việt Nam hiện đại với khối lượng tác phẩm đồ sộ bậc nhất thế kỷ XX.',
+    quote: 'Đất và người Tây Bắc đã để thương để nhớ cho tôi nhiều quá, không bao giờ quên.',
+  },
+
+  'doan-thi-diem': {
+    id: 'doan-thi-diem',
+    name: 'Đặng Trần Côn & Đoàn Thị Điểm',
+    slug: 'doan-thi-diem',
+    birthDeath: 'Thế kỷ XVIII',
+    era: 'Văn học Trung đại Việt Nam – Trào lưu Nhân đạo chủ nghĩa',
+    birthplace: 'Thăng Long & Văn Giang, Hưng Yên',
+    portraitUrl: '',
+    literaryStyle:
+      'Kết hợp thể thơ nguyên tác chữ Hán trường đoản cú hào sảng của Đặng Trần Côn với bản dịch diễn Nôm song thất lục bát uyển chuyển, réo rắt bậc nhất lịch sử thi ca dân tộc.',
+    aestheticView:
+      'Thấu cảm sâu sắc với nỗi cô đơn, khát vọng tình yêu và hạnh phúc lứa đôi của người phụ nữ có chồng đi chinh chiến thời loạn lạc.',
+    careerMilestones: [
+      'Tác phẩm Chinh phụ ngâm khúc ra đời khoảng nửa đầu thế kỷ XVIII.',
+      'Trở thành đỉnh cao tiêu biểu nhất của thể loại ngâm khúc song thất lục bát trong văn học Việt Nam.',
+    ],
+    majorWorks: ['Chinh phụ ngâm khúc', 'Truyền kỳ tân phả (Đoàn Thị Điểm)', 'Bích Câu kỳ ngộ'],
+    contributions:
+      'Đưa thể thơ song thất lục bát thuần Việt và nghệ thuật miêu tả nội tâm nhân vật trữ tình lên đỉnh cao cổ điển.',
+    quote: 'Cùng trông lại mà cùng chẳng thấy / Thấy xanh xanh những mấy ngàn dâu / Ngàn dâu xanh ngắt một màu / Lòng chàng ý thiếp ai sầu hơn ai?',
+  },
+
+  'dan-gian-tay-nguyen': {
+    id: 'dan-gian-tay-nguyen',
+    name: 'Nghệ nhân Dân gian Ê-đê',
+    slug: 'dan-gian-tay-nguyen',
+    birthDeath: 'Truyền khẩu qua nhiều thế hệ',
+    era: 'Văn học Dân gian Việt Nam – Sử thi Anh hùng',
+    birthplace: 'Buôn làng Tây Nguyên (Đắk Lắk)',
+    portraitUrl: '',
+    literaryStyle:
+      'Bút pháp phóng đại, trùng điệp, so sánh ví von đậm sắc thái núi rừng đại ngàn; kết hợp lời kể khan trầm hùng bên bếp lửa nhà dài với âm vang cồng chiêng.',
+    aestheticView:
+      'Ca ngợi vẻ đẹp sức mạnh thể chất và khát vọng phồn vinh, thống nhất cộng đồng buôn làng của người anh hùng thời cổ đại.',
+    careerMilestones: [
+      'Được lưu truyền bằng hình thức hát kể (hát khan) trong các đêm lễ hội nhà dài Tây Nguyên.',
+      'Được sưu tầm, dịch thuật năm 1927 và trở thành kiệt tác sử thi nổi tiếng thế giới.',
+    ],
+    majorWorks: ['Sử thi Đăm Săn (Bài ca chàng Đăm Săn)', 'Sử thi Đăm Di', 'Sử thi Xinh Nhã', 'Sử thi Khinh Dú'],
+    contributions:
+      'Di sản văn hóa tinh thần vô giá của đồng bào Tây Nguyên và kho tàng văn học dân gian Việt Nam.',
+    quote: 'Bắp chân chàng to bằng cây xà ngang, bắp đùi chàng to bằng ống bễ, sức chàng ngang sức voi đực, hơi thở chàng ầm ầm tựa sấm dậy...',
+  },
+
+  'ho-chi-minh': {
+    id: 'ho-chi-minh',
+    name: 'Hồ Chí Minh',
+    slug: 'ho-chi-minh',
+    birthDeath: '1890 – 1969',
+    era: 'Văn học hiện đại Việt Nam (Tác gia lớn Chương trình GDPT 2018)',
+    birthplace: 'Làng Sen (Kim Liên), Nam Đàn, Nghệ An',
+    portraitUrl: '',
+    literaryStyle:
+      'Phong phú, đa dạng và thống nhất: văn chính luận ngắn gọn, súc tích, lập luận chặt chẽ, đanh thép; truyện và ký hiện đại, giàu tính chiến đấu và nghệ thuật trào phúng sắc bén; thơ ca kết hợp hài hòa giữa chất cổ điển và tinh thần thời đại, giữa vẻ đẹp tâm hồn nghệ sĩ và ý chí người chiến sĩ cách mạng.',
+    aestheticView:
+      'Văn học nghệ thuật là một mặt trận, nhà văn là chiến sĩ. Trước khi cầm bút, người viết luôn đặt câu hỏi: "Viết cho ai? Viết để làm gì? Viết cái gì? Viết như thế nào?".',
+    careerMilestones: [
+      'Hoạt động báo chí và văn học cách mạng tại Pháp (1919 – 1923) với Bản án chế độ thực dân Pháp và các truyện ngắn viết bằng tiếng Pháp.',
+      'Đọc bản Tuyên ngôn Độc lập bất hủ tại Quảng trường Ba Đình ngày 2/9/1945 khai sinh nước Việt Nam Dân chủ Cộng hòa.',
+      'UNESCO vinh danh là Anh hùng giải phóng dân tộc và Nhà văn hóa kiệt xuất của Việt Nam.',
+    ],
+    majorWorks: [
+      'Tuyên ngôn Độc lập (1945)',
+      'Bản án chế độ thực dân Pháp (1925)',
+      'Nhật ký trong tù (Ngục trung nhật ký, 1942 – 1943)',
+      'Lời kêu gọi toàn quốc kháng chiến (1946)',
+      'Tức cảnh Pác Bó, Nguyên tiêu, Chiều tối (Mộ)',
+    ],
+    contributions:
+      'Người khai sinh nền văn học cách mạng Việt Nam hiện đại, để lại di sản văn chương – tư tưởng vô giá trên cả ba thể loại: văn chính luận, truyện ký và thơ ca.',
+    quote: 'Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do độc lập.',
+  },
+
+  'nguyen-du-truyen-ky': {
+    id: 'nguyen-du-truyen-ky',
+    name: 'Nguyễn Dữ',
+    slug: 'nguyen-du-truyen-ky',
+    birthDeath: 'Thế kỷ XVI',
+    era: 'Văn học Trung đại Việt Nam – Thể loại Truyền kỳ',
+    birthplace: 'Xã Đỗ Tùng, huyện Trường Tân (nay thuộc Thanh Miện, Hải Dương)',
+    portraitUrl: '',
+    literaryStyle:
+      'Kết hợp tài tình giữa yếu tố kỳ ảo (ma quỷ, thần linh, cõi âm) và hiện thực lịch sử – xã hội; cốt truyện kịch tính, nhân vật sắc nét, gửi gắm bài học đạo lý sâu sắc qua lời bình cuối mỗi truyện.',
+    aestheticView:
+      'Dùng cái kỳ (kỳ ảo) để nói cái thực (cuộc đời), khẳng định chính nghĩa thắng gian tà và tôn vinh khí tiết cứng cỏi của kẻ sĩ cùng phẩm hạnh người phụ nữ.',
+    careerMilestones: [
+      'Học trò xuất sắc của Trạng Trình Nguyễn Bỉnh Khiêm, từng đỗ Hương tiến và làm quan tri huyện rồi cáo quan về ở ẩn.',
+      'Sáng tác "Truyền kỳ mạn lục" (20 truyện viết bằng chữ Hán) được mệnh danh là "Thiên cổ kỳ bút".',
+    ],
+    majorWorks: [
+      'Truyền kỳ mạn lục (Ghi chép tản mạn những chuyện kỳ lạ được lưu truyền)',
+      'Chuyện chức phán sự đền Tản Viên',
+      'Chuyện người con gái Nam Xương',
+    ],
+    contributions:
+      'Đỉnh cao rực rỡ nhất của thể loại văn xuôi truyền kỳ chữ Hán trung đại Việt Nam.',
+    quote: 'Than ôi! Người ta thường nói: Cứng quá thì gãy. Kẻ sĩ chỉ lo không cứng cỏi được, còn gãy hay không là việc của trời.',
+  },
+
+  'nguyen-dinh-chieu': {
+    id: 'nguyen-dinh-chieu',
+    name: 'Nguyễn Đình Chiểu',
+    slug: 'nguyen-dinh-chieu',
+    birthDeath: '1822 – 1888',
+    era: 'Văn học yêu nước chống Pháp nửa cuối thế kỷ XIX',
+    birthplace: 'Làng Tân Thới, Gia Định (quê cha ở Phong Điền, Thừa Thiên Huế)',
+    portraitUrl: '',
+    literaryStyle:
+      'Ngòi bút mang đậm màu sắc Nam Bộ mộc mạc, khỏe khoắn, giàu cảm xúc đạo lý nhân nghĩa và hào khí bi tráng chống ngoại xâm.',
+    aestheticView:
+      'Văn chương là vũ khí chiến đấu vì chính đạo và Tổ quốc: "Chở bao nhiêu đạo thuyền không khẳm / Đâm mấy thằng gian bút chẳng tà".',
+    careerMilestones: [
+      'Vượt lên nghịch cảnh mù lòa để mở trường dạy học, bốc thuốc cứu người và sáng tác thơ văn khích lệ nghĩa quân chống Pháp.',
+      'UNESCO vinh danh là Danh nhân Văn hóa thế giới năm 2021.',
+    ],
+    majorWorks: [
+      'Văn tế nghĩa sĩ Cần Giuộc (1861)',
+      'Truyện Lục Vân Tiên',
+      'Chạy giặc',
+      'Ngư Tiều y thuật vấn đáp',
+    ],
+    contributions:
+      'Lá cờ đầu của dòng văn học yêu nước chống Pháp nửa cuối thế kỷ XIX, người đầu tiên dựng tượng đài bất tử về người nông dân nghĩa sĩ trong lịch sử văn học dân tộc.',
+    quote: 'Sống đánh giặc, thác cũng đánh giặc, linh hồn theo giúp cơ binh, muôn kiếp nguyện được trả thù kia.',
+  },
+
+  'vu-trong-phung': {
+    id: 'vu-trong-phung',
+    name: 'Vũ Trọng Phụng',
+    slug: 'vu-trong-phung',
+    birthDeath: '1912 – 1939',
+    era: 'Văn học Hiện thực Phê phán Việt Nam (1930 – 1945)',
+    birthplace: 'Hà Nội (quê gốc Mỹ Hào, Hưng Yên)',
+    portraitUrl: '',
+    literaryStyle:
+      'Ông vua phóng sự đất Bắc và bậc thầy trào phúng bậc nhất lịch sử văn xuôi Việt Nam. Nghệ thuật phóng đại, nghịch dị, đối lập gay gắt giữa cái vỏ "văn minh Âu hóa" và bản chất đồi bại, bịp bợm của xã hội tư sản thành thị đương thời.',
+    aestheticView:
+      'Tiểu thuyết là sự thật ở đời. Nhà văn phải dũng cảm phanh phui mọi ung nhọt đạo đức giả để cảnh tỉnh con người.',
+    careerMilestones: [
+      'Chỉ trong chưa đầy 10 năm cầm bút (mất ở tuổi 27) đã để lại hơn 30 phóng sự và tiểu thuyết lớn.',
+      'Trong năm 1936 đồng loạt cho ra đời bốn tiểu thuyết lớn: Số đỏ, Giông tố, Vỡ đê, Làm đĩ.',
+    ],
+    majorWorks: ['Số đỏ (1936)', 'Giông tố (1936)', 'Kỹ nghệ lấy Tây (1934)', 'Cơm thầy cơm cô (1936)'],
+    contributions:
+      'Đưa tiểu thuyết trào phúng và phóng sự hiện thực Việt Nam lên đỉnh cao kiệt xuất chưa từng có.',
+    quote: 'Các ông muốn tiểu thuyết cứ là tiểu thuyết. Tôi và các nhà văn cùng chí hướng như tôi muốn tiểu thuyết là sự thật ở đời.',
+  },
+
+  'nguyen-huy-thiep': {
+    id: 'nguyen-huy-thiep',
+    name: 'Nguyễn Huy Thiệp',
+    slug: 'nguyen-huy-thiep',
+    birthDeath: '1950 – 2021',
+    era: 'Văn học Việt Nam thời kỳ Đổi mới (Sau 1986)',
+    birthplace: 'Thanh Trì, Hà Nội',
+    portraitUrl: '',
+    literaryStyle:
+      'Câu văn ngắn, sắc lạnh, giàu tính đối thoại đa thanh; kết hợp hiện thực trần trụi với chất ngụ ngôn, huyền thoại và triết lý sinh thái – nhân bản sâu sắc.',
+    aestheticView:
+      'Văn chương phải đánh thức lương tri con người trước sự tha hóa của quyền lực, lòng tham và sự tàn phá tự nhiên.',
+    careerMilestones: [
+      'Từng dạy học ở vùng cao Tây Bắc suốt 10 năm (1970 – 1980), tích lũy vốn sống sâu dày về thiên nhiên và con người miền núi.',
+      'Tạo nên bước ngoặt lớn cho truyện ngắn Việt Nam đương đại từ năm 1987.',
+      'Được trao Huân chương Văn học Nghệ thuật Pháp (2007) và truy tặng Giải thưởng Nhà nước (2022).',
+    ],
+    majorWorks: ['Tướng về hưu (1987)', 'Muối của rừng (1986)', 'Những ngọn gió Hua Tát', 'Không có vua'],
+    contributions:
+      'Nhà cách tân lớn bậc nhất của truyện ngắn Việt Nam thời kỳ hậu chiến và Đổi mới.',
+    quote: 'Hoa tử huyền ba chục năm mới nở một lần. Người nào gặp hoa tử huyền sẽ gặp may mắn.',
+  },
+
+  'dang-thuy-tram': {
+    id: 'dang-thuy-tram',
+    name: 'Đặng Thùy Trâm',
+    slug: 'dang-thuy-tram',
+    birthDeath: '1942 – 1970',
+    era: 'Văn học kháng chiến chống Mỹ – Thể loại Nhật ký',
+    birthplace: 'Huế (lớn lên tại Hà Nội)',
+    portraitUrl: '',
+    literaryStyle:
+      'Trang viết chân thực, giàu lý tưởng cách mạng, kết hợp vẻ đẹp lãng mạn trong sáng của người thiếu nữ Hà Nội với bản lĩnh kiên cường của người nữ bác sĩ quân y nơi tuyến lửa Đức Phổ (Quảng Ngãi).',
+    aestheticView:
+      'Mỗi dòng nhật ký là lời tự bạch từ trái tim rực lửa yêu thương đồng đội, yêu Tổ quốc và khát khao hòa bình.',
+    careerMilestones: [
+      'Tốt nghiệp Đại học Y khoa Hà Nội năm 1966, xung phong vào chiến trường B (Đức Phổ, Quảng Ngãi).',
+      'Hy sinh anh dũng năm 1970 ở tuổi 28; hai cuốn nhật ký của chị được cựu binh Mỹ Frederic Whitehurst giữ gìn suốt 35 năm với lời nhắn "Đừng đốt, bản thân nó đã có lửa rồi!".',
+      'Được phong tặng danh hiệu Anh hùng Lực lượng vũ trang nhân dân.',
+    ],
+    majorWorks: ['Nhật ký Đặng Thùy Trâm (1968 – 1970)'],
+    contributions:
+      'Biểu tượng bất tử của thế hệ thanh niên Việt Nam thời đại Hồ Chí Minh, lay động hàng triệu độc giả trong nước và quốc tế.',
+    quote: 'Đời phải trải qua giông tố nhưng không được cúi đầu trước giông tố.',
+  },
+
+  'bui-hien': {
+    id: 'bui-hien',
+    name: 'Bùi Hiển',
+    slug: 'bui-hien',
+    birthDeath: '1919 – 2009',
+    era: 'Văn xuôi hiện đại Việt Nam (1940 – nay)',
+    birthplace: 'Vinh, Nghệ An (quê gốc Nghi Lộc, Nghệ An)',
+    portraitUrl: '',
+    literaryStyle:
+      'Ngòi bút đôn hậu, tinh tế, giàu chất thơ và đậm hương vị biển cả cùng cuộc sống của những người dân chài miền Trung can trường.',
+    aestheticView:
+      'Khám phá vẻ đẹp bình dị mà cao cả của con người lao động trong cuộc đối mặt thường nhật với thiên nhiên khắc nghiệt.',
+    careerMilestones: [
+      'Nổi tiếng trên văn đàn từ năm 1941 với tập truyện ngắn đầu tay "Nằm vạ".',
+      'Được trao Giải thưởng Nhà nước về Văn học Nghệ thuật đợt I (2001).',
+    ],
+    majorWorks: ['Nằm vạ (1941)', 'Chiều sương (1941)', 'Ánh mắt (1961)', 'Trong gió cát (1965)'],
+    contributions:
+      'Cây bút truyện ngắn phong tục và tâm lý đặc sắc của nền văn xuôi Việt Nam thế kỷ XX.',
+    quote: 'Giữa biển khơi mù sương, tình người và lòng quả cảm vẫn tỏa sáng ấm áp.',
+  },
+
+  'do-phan': {
+    id: 'do-phan',
+    name: 'Đỗ Phấn',
+    slug: 'do-phan',
+    birthDeath: '1956 – nay',
+    era: 'Văn học đương đại Việt Nam – Tùy bút & Tản văn Hà Nội',
+    birthplace: 'Hà Nội',
+    portraitUrl: '',
+    literaryStyle:
+      'Sự giao thoa tinh tế giữa con mắt hội họa (màu sắc, ánh sáng, bố cục) và tâm hồn hoài niệm sâu lắng về thiên nhiên, phố phường và văn hóa Hà Nội.',
+    aestheticView:
+      'Mỗi mùa cây thay lá, mỗi góc phố rêu phong đều lưu giữ ký ức lịch sử và căn cước văn hóa của con người đô thị.',
+    careerMilestones: [
+      'Vừa là họa sĩ vừa là nhà văn chuyên viết tiểu thuyết, truyện ngắn và tản văn về Hà Nội.',
+      'Đạt nhiều giải thưởng văn học của Hội Nhà văn Hà Nội và Giải thưởng Bùi Xuân Phái – Vì tình yêu Hà Nội.',
+    ],
+    majorWorks: ['Vắng mặt (2010)', 'Chảy qua bóng tối (2013)', 'Dằng dặc triền sông mưa (2014)', 'Cõi lá'],
+    contributions:
+      'Một trong những cây bút tản văn, tùy bút viết về Hà Nội đương đại tài hoa và sâu sắc nhất.',
+    quote: 'Lá bàng mùa đông đỏ như đồng hun, lá sấu vàng rộm trút xuống vỉa hè làm nên một cõi lá riêng của Hà Nội.',
+  },
+
+  'victor-hugo': {
+    id: 'victor-hugo',
+    name: 'Victor Hugo',
+    slug: 'victor-hugo',
+    birthDeath: '1802 – 1885',
+    era: 'Chủ nghĩa Lãng mạn Pháp thế kỷ XIX',
+    birthplace: 'Besançon, Pháp',
+    portraitUrl: '',
+    literaryStyle:
+      'Bút pháp tương phản lãng mạn kỳ vĩ (ánh sáng >< bóng tối, thiên thần >< ác quỷ, tình thương >< bạo quyền), kết hợp tự sự sử thi đồ sộ với chất trữ tình nhân đạo.',
+    aestheticView:
+      'Nghệ thuật phải đứng về phía những người cùng khổ, dùng ánh sáng của tình thương và lòng vị tha để đẩy lùi bóng tối của sự bất công.',
+    careerMilestones: [
+      'Lãnh tụ tối cao của trào lưu Chủ nghĩa Lãng mạn Pháp thế kỷ XIX.',
+      'Hoàn thành siêu phẩm "Những người khốn khổ" (Les Misérables, 1862) làm rung chuyển lương tri nhân loại.',
+    ],
+    majorWorks: ['Những người khốn khổ (1862)', 'Nhà thờ Đức Bà Paris (1831)', 'Người cười (1869)', 'Chín mươi ba (1874)'],
+    contributions:
+      'Đại văn hào nhân đạo chủ nghĩa vĩ đại của nước Pháp và văn chương thế giới.',
+    quote: 'Trên đời này chỉ có một điều cao cả nhất, đó là yêu thương con người.',
+  },
+
+  'william-shakespeare': {
+    id: 'william-shakespeare',
+    name: 'William Shakespeare',
+    slug: 'william-shakespeare',
+    birthDeath: '1564 – 1616',
+    era: 'Văn học Phục Hưng Anh (Thế kỷ XVI – XVII)',
+    birthplace: 'Stratford-upon-Avon, Anh Quốc',
+    portraitUrl: '',
+    literaryStyle:
+      'Xung đột kịch căng thẳng, nhân vật đa chiều mang tầm vóc triết học nhân sinh, ngôn ngữ độc thoại nội tâm giàu chất thơ và chiều sâu tư tưởng nhân văn Phục Hưng.',
+    aestheticView:
+      'Sân khấu kịch là tấm gương phản chiếu toàn bộ vẻ đẹp cao quý cũng như bi kịch giằng xé của con người trước thời đại.',
+    careerMilestones: [
+      'Sáng tác 37 vở kịch bất hủ (bi kịch, hài kịch, kịch lịch sử) và 154 bài thơ Sonnet.',
+      'Gắn bó với nhà hát Địa Cầu (Globe Theatre) tại London.',
+    ],
+    majorWorks: ['Hăm-lét (Hamlet)', 'Rô-mê-ô và Giu-li-ét (Romeo and Juliet)', 'Vua Lia (King Lear)', 'Ô-ten-lô (Othello)', 'Mác-bét (Macbeth)'],
+    contributions:
+      'Nhà viết kịch vĩ đại nhất mọi thời đại của văn học nhân loại.',
+    quote: 'Sống, hay không sống – đó là vấn đề.',
+  },
+
+  'dang-dung-do-phu': {
+    id: 'dang-dung-do-phu',
+    name: 'Đặng Dung & Đỗ Phủ',
+    slug: 'dang-dung-do-phu',
+    birthDeath: 'Đỗ Phủ (712 – 770) · Đặng Dung (? – 1414)',
+    era: 'Thơ Đường luật Cổ điển Đông Á (Trung Hoa & Đại Việt)',
+    birthplace: 'Củng Huyện, Hà Nam (Trung Quốc) & Can Lộc, Hà Tĩnh (Việt Nam)',
+    portraitUrl: '',
+    literaryStyle:
+      'Luật thi thất ngôn bát cú chặt chẽ, hàm súc ("ý tại ngôn ngoại"), đối xứng điêu luyện, kết tinh nỗi u hoài thời thế và chí khí nam nhi.',
+    aestheticView:
+      'Thơ Đường luật là nơi ký thác tâm sự yêu nước thương đời ("Thi sử" của Đỗ Phủ và "Cảm hoài" bi tráng của danh tướng Đặng Dung).',
+    careerMilestones: [
+      'Đỗ Phủ được tôn vinh là "Thi Thánh" của thi ca Trung Hoa với chùm "Thu hứng" 8 bài.',
+      'Đặng Dung là danh tướng nhà Hậu Trần kiên cường chống giặc Minh, để lại tuyệt bút "Cảm hoài".',
+    ],
+    majorWorks: ['Cảm hoài – Nỗi lòng (Đặng Dung)', 'Thu hứng – Cảm xúc mùa thu (Đỗ Phủ)', 'Đăng cao (Đỗ Phủ)'],
+    contributions:
+      'Hai đỉnh cao mẫu mực của thơ Đường luật cổ điển trong chương trình Ngữ văn 12 mới.',
+    quote: 'Quốc thù vị báo đầu tiên bạch / Kỷ độ Long Tuyền đới nguyệt ma (Thù nước chưa trả đầu đã bạc / Bao phen mài gươm Long Tuyền dưới bóng trăng).',
+  },
+
+  'dan-gian-viet-thai': {
+    id: 'dan-gian-viet-thai',
+    name: 'Tác giả Dân gian Việt – Thái',
+    slug: 'dan-gian-viet-thai',
+    birthDeath: 'Truyền khẩu qua hàng ngàn năm',
+    era: 'Kho tàng Thần thoại & Truyện thơ Dân gian các dân tộc Việt Nam',
+    birthplace: 'Cộng đồng các dân tộc Việt Nam (Kinh, Thái, Mường, Tày...)',
+    portraitUrl: '',
+    literaryStyle:
+      'Giàu trí tưởng tượng kỳ vĩ trong thần thoại suy nguyên và đằm thắm, trữ tình, giàu hình ảnh比 hứng tự nhiên trong truyện thơ dân gian.',
+    aestheticView:
+      'Giải thích nguồn gốc vũ trụ vạn vật và ca ngợi tình yêu thủy chung vượt qua mọi rào cản lễ giáo.',
+    careerMilestones: [
+      'Hệ thống thần thoại suy nguyên (Thần Trụ Trời, Thần Sét, Thần Gió) mở đầu lịch sử văn học dân tộc.',
+      'Truyện thơ "Tiễn dặn người yêu" (Xống chụ xôn xao) với hơn 1800 câu thơ là viên ngọc quý của dân tộc Thái vùng Tây Bắc.',
+    ],
+    majorWorks: ['Thần Trụ Trời', 'Tiễn dặn người yêu (Xống chụ xôn xao)', 'Nàng Đăm, chàng Đon'],
+    contributions:
+      'Nền tảng cội nguồn của văn học Việt Nam đa dân tộc thống nhất trong đa dạng.',
+    quote: 'Không lấy được nhau mùa hạ, ta sẽ lấy nhau mùa đông / Không lấy được nhau thời trẻ, ta sẽ lấy nhau khi góa bụa về già.',
+  },
 };
+
+
