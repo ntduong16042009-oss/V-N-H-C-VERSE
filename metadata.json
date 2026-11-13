@@ -1,0 +1,8 @@
+{
+  "name": "Remix Văn Khôi - Bách khoa Văn học THPT",
+  "description": "Thư viện số và bách khoa toàn thư chuyên sâu phân tích văn học THPT lớp 10, 11 và 12 theo phong cách Dark Academia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
